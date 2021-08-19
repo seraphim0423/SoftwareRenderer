@@ -68,6 +68,7 @@ void RenderManager::buildRenderQueue(){
 
     //Get pointers to the visible model queue
     renderObjectQueue = currentScene->getVisiblemodels();
+    //printf("render light count %d,  object count %d", currentScene->getLightCount(), renderObjectQueue->size());
 }
 
 bool RenderManager::initSoftwareRenderer(){

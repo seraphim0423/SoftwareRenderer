@@ -14,6 +14,7 @@
 // ===============================
 
 //Headers
+#define M_1_PIf32 (0.318309886183790671537767526745028724)
 #include "vector3D.h"
 #include "matrix.h"
 #include "texture.h"
@@ -375,7 +376,7 @@ struct PBRShader : public IShader {
         nDotV = std::max(interpNormal.dotProduct(interpViewDir), 0.0f);
 
         //Setting up Direct Lighting variables
-        const int maxLights = numLights;
+        const int maxLights = 10; // numLights;
 
         //Fresnel, normal distribution function and geometry occlusion 
         Vector3f F[maxLights];
@@ -394,7 +395,7 @@ struct PBRShader : public IShader {
         
         //Interpolating each light direction for every light
         int val;
-        for(int i = 0; i < maxLights; ++i ){
+        for(int i = 0; i < numLights; ++i ){
             val = i*3;
             interpLightDir[i] = (lightDirVal[val] +  (lightDirVal[val + 1] - lightDirVal[val])* u +  (lightDirVal[val + 2] - lightDirVal[val]) * v).normalized();
         }
@@ -403,7 +404,7 @@ struct PBRShader : public IShader {
         //Currently uses widest SIMD array to perform all light iterations in one trip
         //Which I believe leaves some extra 
         #pragma omp simd
-        for(int light = 0; light < maxLights; ++light ){
+        for(int light = 0; light < numLights; ++light ){
             halfwayDir[light] = (interpLightDir[light] + interpViewDir);
             halfwayDir[light] = halfwayDir[light].normalized();
             nDotL[light] = std::fmax(interpNormal.dotProduct(interpLightDir[light]), 0.0f);
@@ -428,7 +429,7 @@ struct PBRShader : public IShader {
         //Summing up all radiance values since SIMD won't work if I do this within the
         //previous loop
         radianceOut.zero();
-        for(int i = 0; i < maxLights; ++i) {
+        for(int i = 0; i < numLights; ++i) {
             radianceOut += radianceLights[i];
         }
 

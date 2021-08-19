@@ -1,0 +1,3 @@
+P:/repos/SoftwareRenderer/project/CMakeFiles/softwareRenderer.dir
+P:/repos/SoftwareRenderer/project/CMakeFiles/ALL_BUILD.dir
+P:/repos/SoftwareRenderer/project/CMakeFiles/ZERO_CHECK.dir

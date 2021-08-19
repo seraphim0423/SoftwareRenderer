@@ -4,6 +4,7 @@
 // ===============================
 
 //Headers
+#include<cmath>
 #include "camera.h"
 
 Camera::Camera(){

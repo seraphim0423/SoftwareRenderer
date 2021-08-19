@@ -9,6 +9,8 @@
 #include "mesh.h"
 #include "omp.h"
 
+#define MAX_LIGHT_COUNT (10)
+
 //Dummy Constructor / Destructor
 SoftwareRenderer::SoftwareRenderer(){}
 SoftwareRenderer::~SoftwareRenderer(){}
@@ -56,8 +58,8 @@ void SoftwareRenderer::drawTriangularMesh(Model * currentModel){
     shader.metalT    = currentModel->getMetallic();
 
     //Setting up lighting
-    Vector3f lightPositions[mNumLights];
-    Vector3f lColor[mNumLights];
+    Vector3f lightPositions[MAX_LIGHT_COUNT];
+    Vector3f lColor[MAX_LIGHT_COUNT];
     for(int x = 0; x < mNumLights; ++x){
         lColor[x] = mLights[x].color;
         lightPositions[x] = mLights[x].position;
@@ -94,7 +96,7 @@ void SoftwareRenderer::drawTriangularMesh(Model * currentModel){
         Vector3i u = (*tIndices)[j];
 
         //Last setup of shader light variables
-        Vector3f lightDir[mNumLights * 3 ];
+        Vector3f lightDir[MAX_LIGHT_COUNT * 3 ];
         shader.lightDirVal = lightDir;    
 
         //Pack vertex, normal and UV data into triangles

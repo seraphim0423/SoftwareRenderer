@@ -13,13 +13,15 @@
 
 Scene::Scene(const std::string &sceneName){
     //Building all the useful path strings
-    std::string folderPath = "../scenes/" + sceneName;
+    std::string folderPath = "../../scenes/" + sceneName;
     
     if( !findSceneFolder(folderPath)){
         //If you do not find the scene folder quit
-        emptyScene = true; 
+		printf("find scene folder %s", folderPath);
+        emptyScene = true;
     }
     else{
+		printf("load scene content %s, %s", folderPath, sceneName);
         //Load all cameras, models and lights and return false if it fails
         emptyScene = !loadContent(folderPath, sceneName);
     }

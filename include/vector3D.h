@@ -18,6 +18,7 @@
 #include <string>
 #include <type_traits>
 #include "math.h"
+#include <cmath>
 
 //Basic 3D vector class for general calculations
 template<typename T>

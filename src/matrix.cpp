@@ -4,6 +4,7 @@
 // ===============================
 
 //Headers
+#define _USE_MATH_DEFINES
 #include "matrix.h"
 #include <math.h>
 

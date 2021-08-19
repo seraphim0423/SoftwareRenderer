@@ -4,6 +4,7 @@
 // ===============================
 
 //Headers
+#define _USE_MATH_DEFINES
 #include "geometry.h"
 #include <limits>
 #include <math.h>

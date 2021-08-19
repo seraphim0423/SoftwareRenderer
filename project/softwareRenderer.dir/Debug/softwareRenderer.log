@@ -1,0 +1,209 @@
+﻿cl : 命令行 warning D9025: 正在重写“/openmp”(用“/openmp:experimental”)
+cl : 命令行 warning D9002: 忽略未知选项“-g”
+cl : 命令行 warning D9002: 忽略未知选项“-ffast-math”
+  engine.cpp
+P:\repos\SoftwareRenderer\include\geometry.h(48,17): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\light.h(17,16): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\light.h(40,31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\light.h(41,31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(58,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,70): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(105,33): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(155,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,47): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,71): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(285,34): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(287,36): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(305,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(315,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(426,1): warning C4305: “参数”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+  main.cpp
+P:\repos\SoftwareRenderer\include\geometry.h(48,17): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\light.h(17,16): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\light.h(40,31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\light.h(41,31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(58,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,70): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(105,33): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(155,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,47): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,71): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(285,34): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(287,36): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(305,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(315,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(426,1): warning C4305: “参数”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+  rasterizer.cpp
+P:\repos\SoftwareRenderer\include\shader.h(58,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,70): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(105,33): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(155,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,47): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,71): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(285,34): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(287,36): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(305,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(315,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(426,1): warning C4305: “参数”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(62,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(63,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(64,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(65,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(205,77): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(206,77): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(213,20): warning C4244: “=”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(214,20): warning C4244: “=”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(218,20): warning C4244: “=”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(219,20): warning C4244: “=”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+P:\repos\SoftwareRenderer\include\buffer.h(24,37): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+P:\repos\SoftwareRenderer\include\buffer.h(23): message : 在编译 类 模板 成员函数“T &Buffer<T>::operator ()(size_t,size_t)”时
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(169): message : 查看对正在编译的函数 模板 实例化“T &Buffer<T>::operator ()(size_t,size_t)”的引用
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\src\rasterizer.cpp(169): message : 查看对正在编译的 类 模板 实例化“Buffer<float>”的引用
+  renderManager.cpp
+P:\repos\SoftwareRenderer\include\geometry.h(48,17): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\light.h(17,16): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\light.h(40,31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\light.h(41,31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(58,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,70): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(105,33): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(155,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,47): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,71): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(285,34): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(287,36): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(305,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(315,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(426,1): warning C4305: “参数”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+  softwareRenderer.cpp
+P:\repos\SoftwareRenderer\include\shader.h(58,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(104,70): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(105,33): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(155,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,27): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,47): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(211,71): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(285,34): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\shader.h(287,36): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\shader.h(305,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(315,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\shader.h(426,1): warning C4305: “参数”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+P:\repos\SoftwareRenderer\include\geometry.h(48,17): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\light.h(17,16): warning C4305: “初始化”: 从“double”到“float”截断
+P:\repos\SoftwareRenderer\include\light.h(40,31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\include\light.h(41,31): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+P:\repos\SoftwareRenderer\src\softwareRenderer.cpp(191,34): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+P:\repos\SoftwareRenderer\src\softwareRenderer.cpp(192,35): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+P:\repos\SoftwareRenderer\src\softwareRenderer.cpp(193,27): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+P:\repos\SoftwareRenderer\include\buffer.h(39,19): warning C4244: “=”: 从“float”转换到“T”，可能丢失数据
+          with
+          [
+              T=Uint32
+          ]
+P:\repos\SoftwareRenderer\include\buffer.h(36): message : 在编译 类 模板 成员函数“void Buffer<Uint32>::clear(void)”时
+P:\repos\SoftwareRenderer\src\softwareRenderer.cpp(133): message : 查看对正在编译的函数 模板 实例化“void Buffer<Uint32>::clear(void)”的引用
+P:\repos\SoftwareRenderer\src\softwareRenderer.cpp(34): message : 查看对正在编译的 类 模板 实例化“Buffer<Uint32>”的引用
+  正在生成代码...
+LINK : warning LNK4044: 无法识别的选项“/g”；已忽略
+  softwareRenderer.vcxproj -> P:\repos\SoftwareRenderer\project\Debug\softwareRenderer.exe

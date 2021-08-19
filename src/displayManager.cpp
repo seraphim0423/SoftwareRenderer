@@ -4,6 +4,7 @@
 // ===============================
 
 //Includes
+#include <memory>
 #include "displayManager.h"
 
 //Dummy constructors/destructors
